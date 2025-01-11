@@ -5,8 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    visibility: ['responsive', 'hover'],
   },
   plugins: [],
 }
-
