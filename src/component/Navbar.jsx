@@ -31,16 +31,14 @@ function Navbar() {
       <ul className="text-xl invisible md:visible md:flex absolute right-10">
         {links.map(({ id, link }) => {
           return (
-            <>
-              <li
-                key={id}
-                className="mx-4 cursor-pointer font-medium text-gray-200 hover:scale-110 duration-200"
-              >
-                <Link to={link} smooth={true} duration={500}>
-                  {link}
-                </Link>
-              </li>
-            </>
+            <li
+              key={id}
+              className="mx-4 cursor-pointer font-medium text-gray-200 hover:scale-110 duration-200"
+            >
+              <Link to={link} smooth={true} duration={500}>
+                {link}
+              </Link>
+            </li>
           );
         })}
       </ul>

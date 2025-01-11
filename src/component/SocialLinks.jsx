@@ -32,9 +32,9 @@ const SocialLinks = () => {
     <div className='flex flex-col absolute top-[35%] left-0 z-10 mw-10' id='socialLink'>
         <ul>
             {links.map(({id, child, href, download, style})=>{
-                return <>
+                return (
                 <li key={id} className={'flex justify-center items-center w-[9.5rem] h-10 bg-white px-4 ml-[-6.25rem] hover:ml-[-0.625rem] duration-300 ' + style}><a href={href} className='flex justify-between items-center w-full font-bold text-lg ' target='_blank' rel='noreferrer'>{child} </a></li>
-                </>
+                )
             })}
         </ul>
     </div>

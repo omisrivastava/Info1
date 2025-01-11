@@ -55,7 +55,7 @@ const Contact = () => {
               </div>
               <div className="mb-2 text-xl">
                 <label>
-                  <span class="text-white">Message</span>
+                  <span className="text-white">Message</span>
                   <textarea
                     name="message"
                     className="
@@ -75,7 +75,7 @@ const Contact = () => {
                 </label>
               </div>
     
-              <div class=" flex items-center
+              <div className=" flex items-center
               justify-center">
                 <button
                   type="submit"
